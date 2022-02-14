@@ -1,0 +1,24 @@
+.navbar-dark {
+  background-color: #512DA8; }
+
+#mainCover {
+  background: #9575CD;
+  padding-bottom: 10px;
+}
+#bigLogo {
+  border-radius: 10px;
+}
+
+#ourClassroom, #feedbacks{
+  text-decoration: underline;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#classroom_carousel_button, #feedback_carousel_button {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
