@@ -40,6 +40,7 @@
             </div>
         </div>
     </div>
+    
     <div id="mainContent">
         <div class="container">
             <h1 id="ourClassroom">Our Classroom</h1>
@@ -51,15 +52,23 @@
                                 <img class="d-block img-fluid" src="img/classRoom/projector.jpg" alt="Projector">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/classRoom/studentsCrop1.jpg" alt="Students">
+                                <img class="d-block img-fluid" src="img/classRoom/large.jpg" alt="Students">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block img-fluid" src="img/reception.jpg" alt="reception">
+                                <div class="row">
+                                    <img class="d-block img-fluid col-6 snack1" src="img/classRoom/snack1.jpg" alt="snack">
+                                    <img class="d-block img-fluid col-6 snack2" src="img/classRoom/snack2.jpg" alt="snack">
+                                </div>
                             </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid" src="img/classRoom/quote.jpg" alt="Quote">
+                            </div>
+
                             <ol class="carousel-indicators">
                                 <li data-target="#classroom_carousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#classroom_carousel" data-slide-to="1"></li>
                                 <li data-target="#classroom_carousel" data-slide-to="2"></li>
+                                <li data-target="#classroom_carousel" data-slide-to="3"></li>
                             </ol>
                         </div>
                         
@@ -79,50 +88,60 @@
            </div> 
         </div>
         <div class="container">
+            <h1 id="activity">Activities</h1>
+            <img class="d-block img-fluid" src="img/classRoom/movie.jpg" alt="Movie">
+        </div>
+        <div class="container" id="feedbackContainer">
             <h1 id="feedbacks">Feedbacks</h1>
             <div class="row row-content">
                 <div class="col">
-            <div id="feedback_carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="row row-content">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/atk.png" alt="feedback">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/drhln.jpg" alt="feedback">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/hhh.png" alt="feedBack">
-                        </div>
-                    </div>
+                    <div id="feedback_carousel" class="carousel slide" data-bs-interval = false>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="row row-content">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/atk.png" alt="feedback">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/drhln.jpg" alt="feedback">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/hhh.png" alt="feedBack">
+                                </div>
+                            </div>
 
-                    <div class="carousel-item">
-                        <div class="row row-content">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/htn.png" alt="feedbck">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/kkwt.png" alt="feedback">
-                            <img class="d-block img-fluid col-4" src="img/feedBack/slh.png" alt="feedback">
+                            <div class="carousel-item">
+                                <div class="row row-content">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/htn.png" alt="feedbck">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/kkwt.png" alt="feedback">
+                                    <img class="d-block img-fluid col-4" src="img/feedBack/slh.png" alt="feedback">
+                                </div>
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#feedback_carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#feedback_carousel" data-slide-to="1"></li>
+                            </ol>
                         </div>
+                    <a class="carousel-control-prev" href="#feedback_carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#feedback_carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                     </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#feedback_carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#feedback_carousel" data-slide-to="1"></li>
-                    </ol>
                 </div>
-                
-                <div class="btn-group" id="feedback_carousel_button">
-                    <button class="btn btn-danger btn-sm" id="carousel-pause">
-                        <span class="fa fa-pause"></span>
-                    </button>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#feedback_carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#feedback_carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
             </div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="col-12">
+                <div class="blockquote">
+                    <p id="footerquote">"Customer satisficition is our first piroity."</p>
+                    <footer id="writer">
+                        <cite>Hein Htet</cite>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </footer>
     
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS.-->
     <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

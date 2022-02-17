@@ -1,24 +1,74 @@
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #512DA8;
+}
 
 #mainCover {
   background: #9575CD;
   padding-bottom: 10px;
 }
+
 #bigLogo {
   border-radius: 10px;
 }
 
-#ourClassroom, #feedbacks{
-  text-decoration: underline;
-  padding: 20px;
-  text-align: center;
+#mainContent {
+  background-color: #D1C4E9;
 }
 
+#ourClassroom, #feedbacks, #activity {
+  text-decoration: underline;
+  padding: 20px 0px;
+  text-align: left;
+}
+
+.snack1 {
+  padding-right: 5px;
+  padding-bottom: 1px;
+}
+
+.snack2 {
+  padding-left: 5px;
+  padding-bottom: 1px;
+}
 
 #classroom_carousel_button, #feedback_carousel_button {
   right: 0px;
   position: absolute;
   bottom: 0px;
-  z-index: 1; }
+  z-index: 1; 
+}
+
+#feedbackContainer {
+  padding-bottom: 30px;
+}
+
+.footer {
+  background-color: #9575CD;
+}
+
+.blockquote {
+ padding-top: 40px;
+ padding-bottom: 60px;
+}
+
+#writer {
+  text-align: right;
+  font-size: 1em;
+  margin: auto;
+  width: 70%;
+  padding-right: 20px;
+}
+
+#footerquote {
+  line-height: 1.3em;
+  margin: auto;
+  width: 70%;
+  font-size: 2.5em;
+  text-align: center;
+ 
+}
+
+
+
+
 
